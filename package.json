@@ -1,0 +1,34 @@
+{
+  "name": "foo-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node_modules/.bin/nodemon -e html,js,json --debug src/app.js 3000",
+    "start": "node src/app.js",
+    "lint": "node_modules/.bin/eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanAlegre/foo-service.git"
+  },
+  "author": "Seedtag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanAlegre/foo-service/issues"
+  },
+  "homepage": "https://github.com/IvanAlegre/foo-service#readme",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "nodemon": "^1.8.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}

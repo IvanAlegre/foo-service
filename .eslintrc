@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "script"
+  },
+  "extends": "airbnb",
+  "plugins": [
+  ],
+  "globals": {
+    "__webpack_public_path__": true, // webpack path
+    "CONFIG": true, // webpack CONFIG variable
+    "__DEV__": true, // webpack __DEV__ variable
+    //jasmine
+    "jasmine": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "sandbox": true,
+    "done": true,
+    //Primitive types
+    "int": true
+  }
+}
